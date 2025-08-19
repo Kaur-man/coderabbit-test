@@ -12,6 +12,8 @@ import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 function App() {
+   console.log("CodeRabbit should review this change!");
+
   return (
     <div id='app'>
       <Navbar expand='lg' className='fixed-top bg-body-tertiary shadow'>

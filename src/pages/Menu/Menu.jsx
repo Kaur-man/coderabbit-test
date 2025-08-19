@@ -15,6 +15,7 @@ import dessert from '../../utils/dessert';
 import drink from '../../utils/drink';
 
 function Menu() {
+  const unusedVariable = "CodeRabbit will notice this";
   return (
     <div className='menu-page'>
       <header className='height-50 mt-5'>
