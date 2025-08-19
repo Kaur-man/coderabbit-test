@@ -26,8 +26,6 @@ import drink from '../../utils/drink';
 function Menu() {
 
 
-
-  
   return (
     <div className='menu-page'>
       <header className='height-50 mt-5'>
