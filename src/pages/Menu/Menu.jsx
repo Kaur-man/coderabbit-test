@@ -24,7 +24,8 @@ import drink from '../../utils/drink';
  * @returns {JSX.Element} The rendered Menu page component.
  */
 function Menu() {
-  const unusedVariable = "CodeRabbit will notice this";
+
+
   return (
     <div className='menu-page'>
       <header className='height-50 mt-5'>

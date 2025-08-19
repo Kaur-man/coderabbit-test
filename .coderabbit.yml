@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+version: 1
+settings:
+  tone_instructions: "Act like a friendly mentor" # or strict teacher, pirate, etc.
+  review:
+    enable: true         # turn reviews on/off
+    auto_approve: false  # automatically approve if no issues? (false = default)
+    auto_merge: false    # merge PRs automatically if approved
+    summarize: true      # provide summary at end of review

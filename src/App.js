@@ -10,6 +10,7 @@ import Menu from './pages/Menu/Menu';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import { useEffect } from 'react';
 
 /**
  * Root React component that renders the application's header navigation, client-side routes, and footer.
@@ -23,8 +24,11 @@ import Footer from './components/Footer/Footer';
  * @returns {JSX.Element} The application's top-level JSX tree.
  */
 function App() {
-   console.log("CodeRabbit should review this change!");
-
+   useEffect(() => {
+   if (process.env.NODE_ENV !== 'production') {
+     console.info("CodeRabbit should review this change!");  
+      }
+  }, []);
   return (
     <div id='app'>
       <Navbar expand='lg' className='fixed-top bg-body-tertiary shadow'>
