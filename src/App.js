@@ -24,11 +24,7 @@ import { useEffect } from 'react';
  * @returns {JSX.Element} The application's top-level JSX tree.
  */
 function App() {
-   useEffect(() => {
-   if (process.env.NODE_ENV !== 'production') {
-     console.info("CodeRabbit should review this change!");  
-      }
-  }, []);
+   
   return (
     <div id='app'>
       <Navbar expand='lg' className='fixed-top bg-body-tertiary shadow'>
