@@ -13,13 +13,13 @@ import Footer from './components/Footer/Footer';
 import { useEffect } from 'react';
 
 /**
- * Root React component that renders the application's header navigation, client-side routes, and footer.
+ * Root React component that renders the application's header (Navbar), client-side routes, and footer.
  *
- * Renders a top Navbar with brand, navigation links (Home, Menu, About, Contact) and a "Book a table" action,
- * followed by Routes for the Home, Menu, About, and Contact pages, and a Footer component.
+ * Renders a top navigation bar with brand, links (Home, Menu, About, Contact) and a "Book a table" action,
+ * followed by Routes for the Home, Menu, About, and Contact pages and a persistent Footer.
  *
  * Side effects:
- * - Logs "CodeRabbit should review this change!" to the console on every render.
+ * - On mount, logs "CodeRabbit should review this change!" to the console via console.info when NODE_ENV !== 'production'.
  *
  * @returns {JSX.Element} The application's top-level JSX tree.
  */
