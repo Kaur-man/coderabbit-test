@@ -12,6 +12,17 @@ import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { useEffect } from 'react';
 
+/**
+ * Root React component that renders the application's header navigation, client-side routes, and footer.
+ *
+ * Renders a top Navbar with brand, navigation links (Home, Menu, About, Contact) and a "Book a table" action,
+ * followed by Routes for the Home, Menu, About, and Contact pages, and a Footer component.
+ *
+ * Side effects:
+ * - Logs "CodeRabbit should review this change!" to the console on every render.
+ *
+ * @returns {JSX.Element} The application's top-level JSX tree.
+ */
 function App() {
    useEffect(() => {
    if (process.env.NODE_ENV !== 'production') {
