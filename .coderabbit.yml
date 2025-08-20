@@ -13,14 +13,19 @@ reviews:
   auto_approve: false   # automatically approve if no issues? (false = default)
   auto_merge: false     # merge PRs automatically if approved
   summarize: true       # provide summary at end of review
+  check_security: true
+  check_performance: true
+  check_docs: true
+  drafts: true
+
 
   auto_review:
     enabled: true
-    drafts: false
+    drafts: true
     labels:
       - "feature"
       - "bugfix"
-      - "!wip"
+      - "wip"
 
   path_filters:
     - "!node_modules/**"

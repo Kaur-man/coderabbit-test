@@ -10,6 +10,7 @@ import Menu from './pages/Menu/Menu';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import { useEffect } from 'react';
 
 /**
  * Root React component that renders the app's top-level UI: a header (Navbar), client-side routes, and a footer.
@@ -20,6 +21,12 @@ import Footer from './components/Footer/Footer';
  * @returns {JSX.Element} The application's top-level JSX tree.
  */
 function App() {
+   useEffect(() => {
+      if (process.env.NODE_ENV !== 'production') {
+        console.info("CodeRabbit should review this change!");  
+         }
+     }, []);
+   console.log("coderabbit called from APP");
    
   return (
     <div id='app'>
