@@ -2,7 +2,7 @@
 # Enterprise configuration with comprehensive settings
 
 language: "en-US"
-tone_instructions: "Be thorough and focus on security and maintainability"
+tone_instructions: "Act like a strict teacher"
 
 reviews:
   profile: "assertive"
