@@ -6,6 +6,8 @@ import MenuSection from '../../components/MenuSection/MenuSection';
 import ContactSection from '../../components/ContactSection/ContactSection';
 
 function Home() {
+  console.log("coderabbit called from HOME screen");
+  
   return (
     <div className='home-page'>
         <Header />
