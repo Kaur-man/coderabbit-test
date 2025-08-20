@@ -15,11 +15,16 @@ import dessert from '../../utils/dessert';
 import drink from '../../utils/drink';
 
 /**
- * Render the restaurant menu page with Breakfast, Lunch, Dinner, Dessert, and Drinks sections.
+ * Render the restaurant Menu page with sections for Breakfast, Lunch, Dinner, Dessert, and Drinks.
  *
- * Each section displays an image and a list of items (name, description where applicable, and price),
- * uses a responsive Bootstrap layout, and applies framer-motion entrance animations. Includes a "Book your table"
- * call-to-action linking to the contact page.
+ * Each section shows a category image alongside a list of items (name, optional description, and price),
+ * uses a responsive Bootstrap layout and framer-motion entrance animations, and sources item data from
+ * the imported arrays (breakfast, lunch, dinner, dessert, drink). Includes a "Book your table" CTA that
+ * links to the contact page.
+ *
+ * Side effects:
+ * - Logs "coderabbit called from MENU screen" on every render.
+ * - In non-production environments, logs "CodeRabbit should review this change!" once after the first render.
  *
  * @returns {JSX.Element} The rendered Menu page component.
  */
