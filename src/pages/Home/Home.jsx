@@ -13,8 +13,7 @@ import ContactSection from '../../components/ContactSection/ContactSection';
  * @return {JSX.Element} The home page element.
  */
 function Home() {
-  const statusCheck = "coderabbit called from HOME screen"
-  console.log("coderabbit called from HOME screen");
+  console.log("CodeRabbit should review this change!");
   
   return (
     <div className='home-page'>
