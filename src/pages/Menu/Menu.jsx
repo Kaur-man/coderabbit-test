@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Menu.css';
 import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -24,7 +24,11 @@ import drink from '../../utils/drink';
  * @returns {JSX.Element} The rendered Menu page component.
  */
 function Menu() {
-
+useEffect(() => {
+   if (process.env.NODE_ENV !== 'production') {
+     console.info("CodeRabbit should review this change!");  
+      }
+  }, []);
 
   return (
     <div className='menu-page'>
