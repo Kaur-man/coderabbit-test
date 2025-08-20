@@ -15,20 +15,16 @@ import dessert from '../../utils/dessert';
 import drink from '../../utils/drink';
 
 /**
- * Render the restaurant menu page with Breakfast, Lunch, Dinner, Dessert, and Drinks sections.
+ * Render the restaurant Menu page with Breakfast, Lunch, Dinner, Dessert, and Drinks sections.
  *
- * Each section displays an image and a list of items (name, description where applicable, and price),
- * uses a responsive Bootstrap layout, and applies framer-motion entrance animations. Includes a "Book your table"
- * call-to-action linking to the contact page.
+ * Each section shows an image and a list of menu items (name, optional description, and price),
+ * laid out responsively and animated using framer-motion. Includes a "Book your table" CTA linking to the contact page.
+ *
+ * Side effect: on component mount, logs an informational message to the console when NODE_ENV !== 'production'.
  *
  * @returns {JSX.Element} The rendered Menu page component.
  */
 function Menu() {
-useEffect(() => {
-   if (process.env.NODE_ENV !== 'production') {
-     console.info("CodeRabbit should review this change!");  
-      }
-  }, []);
 
   return (
     <div className='menu-page'>
