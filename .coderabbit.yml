@@ -15,12 +15,12 @@ reviews:
   summarize: true       # provide summary at end of review
 
   auto_review:
-    enabled: false
+    enabled: true
     drafts: false
     labels:
-      - "feature"
-      - "bugfix"
-      - "!wip"
+      - "!feature"
+      - "!bugfix"
+      - "wip"
 
   path_filters:
     - "!node_modules/**"
