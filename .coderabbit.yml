@@ -11,7 +11,7 @@ reviews:
   auto_assign_reviewers: true
 
 auto_review:
-  enabled: true
+  enabled: false
   drafts: false
   labels:
     - "feature"
