@@ -25,11 +25,7 @@ import drink from '../../utils/drink';
  */
 function Menu() {
 console.log("coderabbit called from MENU screen");
-useEffect(() => {
-      if (process.env.NODE_ENV !== 'production') {
-        console.info("CodeRabbit should review this change!");  
-         }
-     }, []);
+const statusCheck = "coderabbit called from MENU screen"
 
   return (
     <div className='menu-page'>

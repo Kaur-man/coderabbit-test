@@ -26,6 +26,8 @@ function App() {
         console.info("CodeRabbit should review this change!");  
          }
      }, []);
+     console.log("coderabbit called from APP screen");
+     
    
   return (
     <div id='app'>
