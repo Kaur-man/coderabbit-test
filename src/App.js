@@ -10,7 +10,6 @@ import Menu from './pages/Menu/Menu';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import { useEffect } from 'react';
 
 /**
  * Root React component that renders the application's header (Navbar), client-side routes, and footer.

@@ -18,9 +18,9 @@ reviews:
     enabled: true
     drafts: false
     labels:
-      - "!feature"
-      - "!bugfix"
-      - "wip"
+      - "feature"
+      - "bugfix"
+      - "!wip"
 
   path_filters:
     - "!node_modules/**"
