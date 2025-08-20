@@ -6,11 +6,13 @@ import MenuSection from '../../components/MenuSection/MenuSection';
 import ContactSection from '../../components/ContactSection/ContactSection';
 
 /**
- * Root home-page component that composes and renders the main page sections.
+ * Root home-page React component that composes the main sections of the site.
  *
  * Renders a <div className="home-page"> containing Header, AboutUsSection,
- * MenuSection, ImageGallery, and ContactSection. As a side effect, it logs
- * "coderabbit called from HOME screen" to the console when rendered.
+ * MenuSection, ImageGallery, and ContactSection.
+ *
+ * Side effect: logs "CodeRabbit should review this change!" to the console when rendered.
+ *
  * @returns {JSX.Element} The home page element.
  */
 function Home() {
