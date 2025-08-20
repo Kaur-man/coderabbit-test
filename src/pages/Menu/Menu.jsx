@@ -24,11 +24,12 @@ import drink from '../../utils/drink';
  * @returns {JSX.Element} The rendered Menu page component.
  */
 function Menu() {
+console.log("coderabbit called from MENU screen");
 useEffect(() => {
-   if (process.env.NODE_ENV !== 'production') {
-     console.info("CodeRabbit should review this change!");  
-      }
-  }, []);
+      if (process.env.NODE_ENV !== 'production') {
+        console.info("CodeRabbit should review this change!");  
+         }
+     }, []);
 
   return (
     <div className='menu-page'>

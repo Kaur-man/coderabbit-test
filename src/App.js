@@ -26,7 +26,6 @@ function App() {
         console.info("CodeRabbit should review this change!");  
          }
      }, []);
-   console.log("coderabbit called from APP");
    
   return (
     <div id='app'>
